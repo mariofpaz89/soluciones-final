@@ -1,0 +1,50 @@
+{
+  "es": {
+    "header": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "contact": "Contacto",
+      "languageSelector": "Idioma"
+    },
+    "heroSection": {
+      "title": "Soluciones Mike: Innovación Tecnológica para tu Negocio",
+      "subtitle": "Optimizamos tus procesos y construimos tu presencia digital."
+    },
+    "servicesSection": {
+      "title": "Nuestros Servicios",
+      "automationTitle": "Automatización con n8n",
+      "automationDescription": "Simplificamos tus flujos de trabajo con automatizaciones eficientes usando n8n, conectando tus aplicaciones y liberando tu tiempo.",
+      "websiteCreationTitle": "Creación de Sitios Web",
+      "websiteCreationDescription": "Diseñamos y desarrollamos sitios web modernos, responsivos y de alto rendimiento que representan tu marca y atraen a tus clientes."
+    },
+    "footer": {
+      "rightsReserved": "© 2024 Soluciones Mike. Todos los derechos reservados.",
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    }
+  },
+  "en": {
+    "header": {
+      "home": "Home",
+      "services": "Services",
+      "contact": "Contact",
+      "languageSelector": "Language"
+    },
+    "heroSection": {
+      "title": "Soluciones Mike: Technological Innovation for Your Business",
+      "subtitle": "We optimize your processes and build your digital presence."
+    },
+    "servicesSection": {
+      "title": "Our Services",
+      "automationTitle": "Automation with n8n",
+      "automationDescription": "We simplify your workflows with efficient automations using n8n, connecting your applications and freeing up your time.",
+      "websiteCreationTitle": "Website Creation",
+      "websiteCreationDescription": "We design and develop modern, responsive, and high-performance websites that represent your brand and attract your customers."
+    },
+    "footer": {
+      "rightsReserved": "© 2024 Soluciones Mike. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  }
+}
