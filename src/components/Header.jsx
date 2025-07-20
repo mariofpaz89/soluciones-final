@@ -18,13 +18,13 @@ function Header() {
 
       {/* Menú de Navegación - Oculto en móviles, visible en desktop */}
       <nav className="hidden md:flex items-center space-x-6">
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
+        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.home')}>
           {t('header.home')}
         </a>
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
+        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.services')}>
           {t('header.services')}
         </a>
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">
+        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.contact')}>
           {t('header.contact')}
         </a>
 
@@ -34,13 +34,14 @@ function Header() {
             {t('header.languageSelector')}
           </label>
           <select
-            id="language-select-header-desktop" // ID único para desktop
+            id="language-select-header-desktop"
             value={language}
             onChange={(e) => changeLanguage(e.target.value)}
             className="block appearance-none w-full bg-gray-50 border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded-md leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+            aria-label={t('header.languageSelector')}
           >
             {availableLanguages.map((langCode) => (
-              <option key={langCode} value={langCode}>
+              <option key={langCode} value={langCode} className="capitalize">
                 {langCode === 'es' ? 'Español' : langCode === 'en' ? 'English' : langCode}
               </option>
             ))}
@@ -55,7 +56,7 @@ function Header() {
 
       {/* Botón de Menú (Hamburguesa) - Visible en móviles, oculto en desktop */}
       <div className="md:hidden">
-        <button onClick={toggleMenu} className="text-gray-700 hover:text-blue-600 focus:outline-none">
+        <button onClick={toggleMenu} className="text-gray-700 hover:text-blue-600 focus:outline-none" aria-label={isMenuOpen ? t('header.closeMenu') : t('header.openMenu')}>
           {/* Icono de Hamburguesa o X */}
           <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {isMenuOpen ? (
@@ -69,33 +70,34 @@ function Header() {
 
       {/* Menú Desplegable para Móviles */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center space-y-4 z-20">
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu}>
+        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center space-y-4 z-20 transition-all duration-300 max-h-screen overflow-y-auto">
+          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
             {t('header.home')}
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu}>
+          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.services')}>
             {t('header.services')}
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu}>
+          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.contact')}>
             {t('header.contact')}
           </a>
 
           {/* Selector de Idioma para Móviles */}
-          <div className="relative w-40"> {/* Añadimos un ancho fijo para que no se extienda */}
+          <div className="relative w-40">
             <label htmlFor="language-select-header-mobile" className="sr-only">
               {t('header.languageSelector')}
             </label>
             <select
-              id="language-select-header-mobile" // ID único para mobile
+              id="language-select-header-mobile"
               value={language}
               onChange={(e) => {
                 changeLanguage(e.target.value);
-                toggleMenu(); // Cerrar el menú después de cambiar el idioma
+                toggleMenu();
               }}
               className="block appearance-none w-full bg-gray-50 border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded-md leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+              aria-label={t('header.languageSelector')}
             >
               {availableLanguages.map((langCode) => (
-                <option key={langCode} value={langCode}>
+                <option key={langCode} value={langCode} className="capitalize">
                   {langCode === 'es' ? 'Español' : langCode === 'en' ? 'English' : langCode}
                 </option>
               ))}
