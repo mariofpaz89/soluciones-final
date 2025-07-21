@@ -1,21 +1,29 @@
-import React, { useContext } from 'react'; // Importa useContext
-import { LanguageContext } from '../contexts/LanguageContext'; // Importa el contexto
+import React, { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
-  const { t } = useContext(LanguageContext); // Usamos useContext
+  const { t } = useContext(LanguageContext);
 
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-purple-700 text-white min-h-screen flex items-center justify-center text-center p-8 mt-16">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">
+    <section className="relative bg-expressvpn-bg text-expressvpn-text min-h-[70vh] flex items-center justify-center text-center px-4 pt-24 pb-16 overflow-hidden">
+      {/* Eliminado el SVG blanco para evitar franja */}
+      <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
+        <div className="mb-6 animate-fade-in-down">
+          <img src="/assets/react.svg" alt="Logo" className="w-24 h-24 drop-shadow-xl" onError={e => {e.target.onerror=null; e.target.src='/vite.svg';}} />
+        </div>
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down text-expressvpn-text">
           {t('heroSection.title')}
         </h1>
-        <p className="text-xl md:text-2xl opacity-90 animate-fade-in-up">
+        <p className="text-lg md:text-2xl opacity-90 mb-8 animate-fade-in-up text-expressvpn-text">
           {t('heroSection.subtitle')}
         </p>
-        <button className="mt-8 bg-white text-blue-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-          ¡Contáctanos!
-        </button>
+        <Link
+          to="/contacto"
+          className="inline-block bg-expressvpn-button text-expressvpn-buttonText px-8 py-4 rounded-full shadow-md hover:scale-105 hover:bg-expressvpn-accent transition-all duration-300 text-xl font-bold animate-fade-in-up focus:outline-none focus:ring-2 focus:ring-expressvpn-accent focus:ring-offset-2"
+        >
+          {t('header.contact')}
+        </Link>
       </div>
     </section>
   );

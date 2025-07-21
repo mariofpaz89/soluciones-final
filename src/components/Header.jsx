@@ -1,5 +1,6 @@
-import React, { useContext, useState } from 'react'; // Importa useState
+import React, { useContext, useState } from 'react';
 import { LanguageContext } from '../contexts/LanguageContext';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const { language, changeLanguage, t, availableLanguages } = useContext(LanguageContext);
@@ -11,22 +12,22 @@ function Header() {
   };
 
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center fixed top-0 left-0 w-full z-10 animate-slide-down">
-      <div className="text-2xl font-bold text-blue-700">
+    <header className="bg-expressvpn-bg shadow-lg p-4 flex justify-between items-center fixed top-0 left-0 w-full z-10 animate-slide-down">
+      <div className="text-2xl font-bold text-expressvpn-logo">
         Soluciones Mike
       </div>
 
       {/* Menú de Navegación - Oculto en móviles, visible en desktop */}
       <nav className="hidden md:flex items-center space-x-6">
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.home')}>
+        <Link to="/" className="text-expressvpn-text hover:text-expressvpn-text font-medium" aria-label={t('header.home')}>
           {t('header.home')}
-        </a>
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.services')}>
+        </Link>
+        <a href="#services" className="text-expressvpn-text hover:text-expressvpn-text font-medium" aria-label={t('header.services')}>
           {t('header.services')}
         </a>
-        <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" aria-label={t('header.contact')}>
+        <Link to="/contacto" className="text-expressvpn-text hover:text-expressvpn-text font-medium" aria-label={t('header.contact')}>
           {t('header.contact')}
-        </a>
+        </Link>
 
         {/* Selector de Idioma para Desktop */}
         <div className="relative">
@@ -71,15 +72,15 @@ function Header() {
       {/* Menú Desplegable para Móviles */}
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 flex flex-col items-center space-y-4 z-20 transition-all duration-300 max-h-screen overflow-y-auto">
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
+          <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
             {t('header.home')}
-          </a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.services')}>
+          </Link>
+          <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.services')}>
             {t('header.services')}
           </a>
-          <a href="#" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.contact')}>
+          <Link to="/contacto" className="text-gray-700 hover:text-blue-600 font-medium" onClick={toggleMenu} aria-label={t('header.contact')}>
             {t('header.contact')}
-          </a>
+          </Link>
 
           {/* Selector de Idioma para Móviles */}
           <div className="relative w-40">

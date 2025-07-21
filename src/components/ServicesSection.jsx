@@ -2,36 +2,42 @@ import React, { useContext } from 'react'; // Importa useContext
 import { LanguageContext } from '../contexts/LanguageContext'; // Importa el contexto
 
 function ServicesSection() {
-  const { t } = useContext(LanguageContext); // Usamos useContext
+  const { t } = useContext(LanguageContext);
 
   return (
-    <section className="bg-gray-50 py-16 px-8">
+    <section className="bg-expressvpn-section py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-expressvpn-text mb-14 animate-fade-in-down">
           {t('servicesSection.title')}
         </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-2">
-            <div className="text-6xl text-purple-600 mb-6">
-              ⚙️
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="bg-expressvpn-section p-10 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 border border-expressvpn-border animate-fade-in-up">
+            <div className="flex justify-center mb-6">
+              <span className="inline-block bg-expressvpn-bg text-expressvpn-button rounded-full p-4 text-4xl shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 17v-2a2 2 0 012-2h2a2 2 0 012 2v2m-6 0h6m-6 0a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2m-6 0a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2" />
+                </svg>
+              </span>
             </div>
-            <h3 className="text-3xl font-bold text-purple-700 mb-4">
+            <h3 className="text-2xl font-bold text-expressvpn-button mb-4">
               {t('servicesSection.automationTitle')}
             </h3>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-expressvpn-text leading-relaxed">
               {t('servicesSection.automationDescription')}
             </p>
           </div>
-
-          <div className="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-2">
-            <div className="text-6xl text-green-600 mb-6">
-              🌐
+          <div className="bg-expressvpn-section p-10 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 border border-expressvpn-border animate-fade-in-up">
+            <div className="flex justify-center mb-6">
+              <span className="inline-block bg-expressvpn-bg text-expressvpn-button rounded-full p-4 text-4xl shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-10 h-10">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </span>
             </div>
-            <h3 className="text-3xl font-bold text-green-700 mb-4">
+            <h3 className="text-2xl font-bold text-expressvpn-button mb-4">
               {t('servicesSection.websiteCreationTitle')}
             </h3>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-expressvpn-text leading-relaxed">
               {t('servicesSection.websiteCreationDescription')}
             </p>
           </div>

@@ -11,16 +11,16 @@ export const useLanguage = () => {
   });
 
   // Estado para las traducciones del idioma actual
-  const [t, setT] = useState({});
+  const [translationsState, setTranslationsState] = useState({});
 
   // Efecto para cargar las traducciones cuando el idioma cambia
   useEffect(() => {
     if (translations[language]) {
-      setT(translations[language]);
+      setTranslationsState(translations[language]);
     } else {
       // Si el idioma seleccionado no tiene traducciones, volvemos al por defecto
       setLanguage(defaultLanguage);
-      setT(translations[defaultLanguage]);
+      setTranslationsState(translations[defaultLanguage]);
       localStorage.setItem('appLanguage', defaultLanguage);
     }
   }, [language]);
@@ -44,7 +44,7 @@ export const useLanguage = () => {
   // Ejemplo: translate('header.home')
   const translate = useCallback((key) => {
     const keys = key.split('.');
-    let currentTranslation = t;
+    let currentTranslation = translationsState;
     for (const k of keys) {
       if (currentTranslation && currentTranslation[k] !== undefined) {
         currentTranslation = currentTranslation[k];
@@ -55,7 +55,7 @@ export const useLanguage = () => {
       }
     }
     return currentTranslation;
-  }, [t, language]); // Dependencias: 't' (traducciones) y 'language'
+  }, [translationsState, language]);
 
   return {
     language,

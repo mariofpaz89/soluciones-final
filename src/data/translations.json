@@ -21,6 +21,13 @@
       "rightsReserved": "© 2024 Soluciones Mike. Todos los derechos reservados.",
       "privacyPolicy": "Política de Privacidad",
       "termsOfService": "Términos de Servicio"
+    },
+    "contactSection": {
+      "title": "Contáctanos",
+      "subtitle": "¿Listo para llevar tu negocio al siguiente nivel? Completa el formulario y te contactamos en menos de 24 horas.",
+      "emailPlaceholder": "Correo electrónico",
+      "messagePlaceholder": "¿En qué podemos ayudarte?",
+      "sendButton": "Enviar mensaje"
     }
   },
   "en": {
@@ -45,6 +52,13 @@
       "rightsReserved": "© 2024 Soluciones Mike. All rights reserved.",
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
+    },
+    "contactSection": {
+      "title": "Contact Us",
+      "subtitle": "Ready to take your business to the next level? Fill out the form and we will contact you within 24 hours.",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "How can we help you?",
+      "sendButton": "Send Message"
     }
   }
 }
