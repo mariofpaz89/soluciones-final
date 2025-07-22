@@ -1,3 +1,4 @@
+
 import React, { useContext } from 'react';
 import { LanguageContext } from '../contexts/LanguageContext';
 import { Link } from 'react-router-dom';
@@ -6,8 +7,7 @@ function HeroSection() {
   const { t } = useContext(LanguageContext);
 
   return (
-    <section className="relative bg-expressvpn-bg text-expressvpn-text min-h-[70vh] flex items-center justify-center text-center px-4 pt-24 pb-16 overflow-hidden">
-      {/* Eliminado el SVG blanco para evitar franja */}
+    <section className="relative bg-expressvpn-bg text-expressvpn-text min-h-[70vh] flex items-center justify-center text-center px-4 pt-8 md:pt-16 pb-16 overflow-hidden">
       <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
         <div className="mb-6 animate-fade-in-down">
           <img src="/assets/react.svg" alt="Logo" className="w-24 h-24 drop-shadow-xl" onError={e => {e.target.onerror=null; e.target.src='/vite.svg';}} />

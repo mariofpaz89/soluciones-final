@@ -1,11 +1,12 @@
+
 import React, { useContext } from "react";
 import { LanguageContext } from '../contexts/LanguageContext';
 
 function ContactSection() {
   const { t } = useContext(LanguageContext);
   return (
-    <section className="pt-24 pb-16 px-4 bg-expressvpn-bg text-expressvpn-text animate-fade-in-up">
-      <div className="max-w-3xl mx-auto rounded-xl p-10 backdrop-blur-md bg-white border border-expressvpn-border">
+    <section className="pb-16 px-4 bg-expressvpn-bg text-expressvpn-text animate-fade-in-up">
+      <div className="w-full max-w-3xl mx-auto rounded-xl p-4 md:p-10 backdrop-blur-md bg-white border border-expressvpn-border">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">{t('contactSection.title')}</h2>
         <p className="text-center mb-8 text-lg">{t('contactSection.subtitle')}</p>
         <form className="flex flex-col gap-6">

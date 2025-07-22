@@ -1,11 +1,12 @@
-import React, { useContext } from 'react'; // Importa useContext
-import { LanguageContext } from '../contexts/LanguageContext'; // Importa el contexto
+
+import React, { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
 
 function ServicesSection() {
   const { t } = useContext(LanguageContext);
 
   return (
-    <section className="bg-expressvpn-section py-20 px-4">
+    <section id="services" className="bg-expressvpn-section py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold text-expressvpn-text mb-14 animate-fade-in-down">
           {t('servicesSection.title')}

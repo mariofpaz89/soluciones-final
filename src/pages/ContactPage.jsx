@@ -7,9 +7,9 @@ import { LanguageProvider } from '../contexts/LanguageContext';
 function ContactPage() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen flex flex-col bg-argon-bg">
+      <div className="min-h-screen flex flex-col bg-expressvpn-bg">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 pt-20 md:pt-24">
           {/* Eliminado el botón 'Volver al inicio' */}
           <ContactSection />
         </main>

@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
 import translations from '../data/translations.json';
 
-const defaultLanguage = 'es'; // Idioma por defecto
+const defaultLanguage = 'en'; // Idioma por defecto
 
 export const useLanguage = () => {
   // Estado para el idioma actual, inicializado desde localStorage o el idioma por defecto
   const [language, setLanguage] = useState(() => {
-    const storedLanguage = localStorage.getItem('appLanguage');
-    return storedLanguage || defaultLanguage;
+    const storedLang = localStorage.getItem('appLanguage');
+    return storedLang && translations[storedLang] ? storedLang : defaultLanguage;
   });
 
   // Estado para las traducciones del idioma actual
@@ -27,7 +27,9 @@ export const useLanguage = () => {
 
   // Efecto para persistir el idioma en localStorage
   useEffect(() => {
-    localStorage.setItem('appLanguage', language);
+    if (translations[language]) {
+      localStorage.setItem('appLanguage', language);
+    }
   }, [language]);
 
   // Función para cambiar el idioma
@@ -35,6 +37,7 @@ export const useLanguage = () => {
   const changeLanguage = useCallback((newLang) => {
     if (translations[newLang]) {
       setLanguage(newLang);
+      localStorage.setItem('appLanguage', newLang);
     } else {
       console.warn(`Idioma '${newLang}' no soportado. Se mantiene en '${language}'.`);
     }

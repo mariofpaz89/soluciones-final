@@ -1,5 +1,6 @@
-import React, { useContext } from 'react'; // Importa useContext
-import { LanguageContext } from '../contexts/LanguageContext'; // Importa el contexto
+
+import React, { useContext } from 'react';
+import { LanguageContext } from '../contexts/LanguageContext';
 
 function Footer() {
   const { t } = useContext(LanguageContext);
