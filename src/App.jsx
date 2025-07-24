@@ -2,7 +2,7 @@
 import React from 'react';
 import './index.css';
 import { LanguageProvider } from './contexts/LanguageContext';
-
+import FAQAccordion from "./components/FAQAccordion";
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
@@ -20,6 +20,7 @@ function App() {
             <HeroSection />
           </section>
           <ServicesSection />
+          <FAQAccordion />
           {/* <ContactSection /> */}
         </main>
         <Footer />

@@ -1,5 +1,63 @@
 {
   "es": {
+    "faq": {
+      "title": "Ayuda y Preguntas Frecuentes",
+      "about": "Sobre Mike Solutions y Nuestros Servicios",
+      "automation": "Preguntas Frecuentes sobre Automatización con n8n",
+      "web": "Preguntas Frecuentes sobre Creación de Sitios Web",
+      "questions": [
+        {
+          "section": "about",
+          "q": "¿Qué es Mike Solutions y qué servicios ofrecen?",
+          "a": "Mike Solutions es una empresa dedicada a proporcionar soluciones tecnológicas innovadoras para optimizar y hacer crecer su negocio. Nos especializamos en automatización de procesos con n8n y creación de sitios web modernos y personalizados. Nuestro objetivo es mejorar su eficiencia y presencia digital."
+        },
+        {
+          "section": "about",
+          "q": "¿Para quiénes son los servicios de Mike Solutions?",
+          "a": "Nuestros servicios están diseñados para pequeñas y medianas empresas, emprendedores y profesionales que buscan optimizar sus operaciones, establecer o mejorar su presencia online, y aprovechar la tecnología para ser más competitivos y eficientes."
+        },
+        {
+          "section": "automation",
+          "q": "¿Qué es la automatización de procesos y cómo puede beneficiar a mi negocio?",
+          "a": "La automatización de procesos consiste en configurar herramientas y sistemas para que realicen tareas repetitivas de forma automática, sin intervención manual. Esto libera tiempo valioso para su equipo, reduce errores humanos, acelera flujos de trabajo y disminuye costos operativos, permitiéndole enfocarse en tareas estratégicas."
+        },
+        {
+          "section": "automation",
+          "q": "¿Qué es n8n y por qué lo utilizan en sus soluciones de automatización?",
+          "a": "n8n (Node-based Workflow Automation) es una potente herramienta de código abierto que nos permite conectar diversas aplicaciones y servicios (CRM, email marketing, bases de datos, redes sociales, etc.) para crear flujos de trabajo automatizados complejos y personalizados. Lo elegimos por su flexibilidad, capacidad de integración y la posibilidad de adaptarlo a necesidades muy específicas."
+        },
+        {
+          "section": "automation",
+          "q": "¿Qué tipo de tareas puedo automatizar con n8n?",
+          "a": "La lista es muy amplia, pero algunos ejemplos comunes incluyen: Envío automático de emails o notificaciones basadas en eventos, sincronización de datos entre diferentes aplicaciones, automatización de procesos de ventas o marketing, generación de reportes o documentos, publicación automática de contenido en redes sociales, gestión de tareas y proyectos. Cualquier tarea repetitiva que involucre varias aplicaciones es un buen candidato para la automatización."
+        },
+        {
+          "section": "automation",
+          "q": "¿Necesito conocimientos técnicos para usar las automatizaciones que implementen?",
+          "a": "No, no necesita conocimientos técnicos avanzados. Nuestro objetivo es entregarle soluciones automatizadas que sean fáciles de usar y mantener. Nosotros nos encargamos de la configuración y la complejidad técnica, y le proporcionamos la capacitación necesaria para gestionarlas."
+        },
+        {
+          "section": "web",
+          "q": "¿Qué tipo de sitios web crean en Mike Solutions?",
+          "a": "Diseñamos y desarrollamos páginas web modernas, responsive y optimizadas para el rendimiento. Esto incluye sitios web corporativos, páginas de servicios, landing pages para campañas, portafolios, y blogs. Nos enfocamos en un diseño atractivo, una excelente experiencia de usuario y que su sitio funcione perfectamente en cualquier dispositivo."
+        },
+        {
+          "section": "web",
+          "q": "¿Qué tecnologías utilizan para desarrollar los sitios web?",
+          "a": "Principalmente utilizamos React.js para construir interfaces de usuario dinámicas y eficientes, y Tailwind CSS para un estilado rápido y altamente personalizable. Estas tecnologías nos permiten crear sitios web robustos, escalables y con un excelente rendimiento."
+        },
+        {
+          "section": "web",
+          "q": "¿Cuánto tiempo tarda la creación de un sitio web?",
+          "a": "El tiempo de desarrollo varía según la complejidad y las funcionalidades que requiera su sitio. Una página de servicios estándar puede tomar unas pocas semanas, mientras que proyectos más complejos naturalmente requieren más tiempo. Le proporcionaremos una línea de tiempo clara y detallada después de entender sus necesidades."
+        },
+        {
+          "section": "web",
+          "q": "¿Ofrecen servicios de mantenimiento y soporte post-lanzamiento?",
+          "a": "Sí, ofrecemos opciones de mantenimiento y soporte para asegurar que su sitio web funcione sin problemas después del lanzamiento, incluyendo actualizaciones, monitoreo y solución de posibles incidencias. Podemos discutir los planes de soporte que mejor se adapten a sus necesidades."
+        }
+      ]
+    },
     "header": {
       "home": "Inicio",
       "services": "Servicios",
@@ -31,6 +89,64 @@
     }
   },
   "en": {
+    "faq": {
+      "title": "Help & Frequently Asked Questions",
+      "about": "About Mike Solutions and Our Services",
+      "automation": "Frequently Asked Questions about Automation with n8n",
+      "web": "Frequently Asked Questions about Website Creation",
+      "questions": [
+        {
+          "section": "about",
+          "q": "What is Mike Solutions and what services do you offer?",
+          "a": "Mike Solutions is a company dedicated to providing innovative technological solutions to optimize and grow your business. We specialize in process automation with n8n and the creation of modern, customized websites. Our goal is to improve your efficiency and digital presence."
+        },
+        {
+          "section": "about",
+          "q": "Who are Mike Solutions' services for?",
+          "a": "Our services are designed for small and medium-sized businesses, entrepreneurs, and professionals who want to optimize their operations, establish or improve their online presence, and leverage technology to be more competitive and efficient."
+        },
+        {
+          "section": "automation",
+          "q": "What is process automation and how can it benefit my business?",
+          "a": "Process automation involves configuring tools and systems to perform repetitive tasks automatically, without manual intervention. This frees up valuable time for your team, reduces human errors, speeds up workflows, and lowers operating costs, allowing you to focus on strategic tasks."
+        },
+        {
+          "section": "automation",
+          "q": "What is n8n and why do you use it in your automation solutions?",
+          "a": "n8n (Node-based Workflow Automation) is a powerful open-source tool that allows us to connect various applications and services (CRM, email marketing, databases, social networks, etc.) to create complex and customized automated workflows. We choose it for its flexibility, integration capabilities, and the ability to adapt it to very specific needs."
+        },
+        {
+          "section": "automation",
+          "q": "What kind of tasks can I automate with n8n?",
+          "a": "The list is very broad, but some common examples include: automatic sending of emails or notifications based on events, data synchronization between different applications, automation of sales or marketing processes, generation of reports or documents, automatic publishing of content on social networks, task and project management. Any repetitive task involving several applications is a good candidate for automation."
+        },
+        {
+          "section": "automation",
+          "q": "Do I need technical knowledge to use the automations you implement?",
+          "a": "No, you do not need advanced technical knowledge. Our goal is to deliver automated solutions that are easy to use and maintain. We take care of the configuration and technical complexity, and provide you with the necessary training to manage them."
+        },
+        {
+          "section": "web",
+          "q": "What kind of websites do you create at Mike Solutions?",
+          "a": "We design and develop modern, responsive, and performance-optimized web pages. This includes corporate websites, service pages, landing pages for campaigns, portfolios, and blogs. We focus on attractive design, excellent user experience, and ensuring your site works perfectly on any device."
+        },
+        {
+          "section": "web",
+          "q": "What technologies do you use to develop websites?",
+          "a": "We mainly use React.js to build dynamic and efficient user interfaces, and Tailwind CSS for fast and highly customizable styling. These technologies allow us to create robust, scalable websites with excellent performance."
+        },
+        {
+          "section": "web",
+          "q": "How long does it take to create a website?",
+          "a": "Development time varies depending on the complexity and features your site requires. A standard service page can take a few weeks, while more complex projects naturally require more time. We will provide you with a clear and detailed timeline after understanding your needs."
+        },
+        {
+          "section": "web",
+          "q": "Do you offer maintenance and post-launch support services?",
+          "a": "Yes, we offer maintenance and support options to ensure your website runs smoothly after launch, including updates, monitoring, and troubleshooting. We can discuss the support plans that best suit your needs."
+        }
+      ]
+    },
     "header": {
       "home": "Home",
       "services": "Services",

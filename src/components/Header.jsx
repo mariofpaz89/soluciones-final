@@ -32,12 +32,12 @@ function Header() {
       <div className="flex items-center justify-between w-full">
         <span className="text-2xl font-bold text-expressvpn-logo">Soluciones Mike</span>
         <nav className="flex items-center space-x-6">
-          <Link to="/" className="text-expressvpn-text hover:text-expressvpn-accent font-medium" aria-label={t('header.home')}>
+          <Link to="/" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" aria-label={t('header.home')}>
             {t('header.home')}
           </Link>
           <a
             href="#services"
-            className="text-expressvpn-text hover:text-expressvpn-accent font-medium"
+            className="text-expressvpn-text hover:text-[color:#0f866c] font-medium"
             aria-label={t('header.services')}
             onClick={e => {
               e.preventDefault();
@@ -49,13 +49,14 @@ function Header() {
           >
             {t('header.services')}
           </a>
-          <Link to="/contacto" className="text-expressvpn-text hover:text-expressvpn-accent font-medium" aria-label={t('header.contact')}>
+          <Link to="/contacto" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" aria-label={t('header.contact')}>
             {t('header.contact')}
           </Link>
           <div className="relative ml-8 lang-dropdown">
             <button
               onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-              className="flex items-center px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-expressvpn-accent transition-all duration-200"
+              className="flex items-center px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
+              style={{ boxShadow: isLangMenuOpen ? '0 0 0 2px #0f866c55' : undefined, borderColor: isLangMenuOpen ? '#0f866c' : undefined }}
               aria-label={t('header.languageSelector')}
             >
               <img
@@ -99,7 +100,7 @@ function Header() {
 
       {/* Botón de Menú (Hamburguesa) - Visible en móviles, oculto en desktop */}
       <div className="md:hidden">
-        <button onClick={toggleMenu} className="text-expressvpn-text hover:text-expressvpn-accent focus:outline-none" aria-label={isMenuOpen ? t('header.closeMenu') : t('header.openMenu')}>
+        <button onClick={toggleMenu} className="text-expressvpn-text hover:text-[color:#0f866c] focus:outline-none" aria-label={isMenuOpen ? t('header.closeMenu') : t('header.openMenu')}>
           {/* Icono de Hamburguesa o X */}
           <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {isMenuOpen ? (
@@ -115,12 +116,12 @@ function Header() {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-expressvpn-bg shadow-lg py-4 flex flex-col items-center space-y-4 z-20 transition-all duration-300 max-h-screen overflow-y-auto">
           <div className="flex flex-col items-center space-y-4 w-full">
-            <Link to="/" className="text-expressvpn-text hover:text-expressvpn-accent font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
+            <Link to="/" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
               {t('header.home')}
             </Link>
             <a
               href="#services"
-              className="text-expressvpn-text hover:text-expressvpn-accent font-medium"
+              className="text-expressvpn-text hover:text-[color:#0f866c] font-medium"
               onClick={e => {
                 e.preventDefault();
                 const section = document.getElementById('services');
@@ -133,21 +134,23 @@ function Header() {
             >
               {t('header.services')}
             </a>
-            <Link to="/contacto" className="text-expressvpn-text hover:text-expressvpn-accent font-medium" onClick={toggleMenu} aria-label={t('header.contact')}>
+            <Link to="/contacto" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" onClick={toggleMenu} aria-label={t('header.contact')}>
               {t('header.contact')}
             </Link>
           </div>
           <div className="flex items-center space-x-4 mt-4">
             <button
               onClick={() => { changeLanguage('es'); toggleMenu(); }}
-              className={`w-8 h-8 rounded-full border-2 ${language === 'es' ? 'border-expressvpn-accent' : 'border-transparent'} focus:outline-none transition-all duration-200`}
+              className={`w-8 h-8 rounded-full border-2 ${language === 'es' ? '' : 'border-transparent'} focus:outline-none transition-all duration-200`}
+              style={language === 'es' ? { borderColor: '#0f866c' } : {}}
               aria-label="Español"
             >
               <img src="/src/assets/spain.png" alt="Español" className="w-8 h-8 rounded-full" />
             </button>
             <button
               onClick={() => { changeLanguage('en'); toggleMenu(); }}
-              className={`w-8 h-8 rounded-full border-2 ${language === 'en' ? 'border-expressvpn-accent' : 'border-transparent'} focus:outline-none transition-all duration-200`}
+              className={`w-8 h-8 rounded-full border-2 ${language === 'en' ? '' : 'border-transparent'} focus:outline-none transition-all duration-200`}
+              style={language === 'en' ? { borderColor: '#0f866c' } : {}}
               aria-label="English"
             >
               <img src="/src/assets/usa.png" alt="English" className="w-8 h-8 rounded-full" />
