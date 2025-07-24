@@ -86,6 +86,43 @@
       "emailPlaceholder": "Correo electrónico",
       "messagePlaceholder": "¿En qué podemos ayudarte?",
       "sendButton": "Enviar mensaje"
+    },
+    "solutionsSection": {
+      "title": "Nuestras Soluciones",
+      "items": [
+        {
+          "image": "/assets/pokedex-pokemon.jpg",
+          "imageAlt": "Pokedex Interactiva",
+          "title": "Pokedex Interactiva: Explora el Mundo Pokémon como Nunca Antes",
+          "challengeLabel": "Desafío:",
+          "challenge": "El universo Pokémon es vasto y fascinante, pero la información sobre sus criaturas a menudo está dispersa. Nuestro desafío fue crear una plataforma centralizada que ofreciera a los entusiastas una forma rápida y visual de explorar y aprender sobre sus Pokémon favoritos.",
+          "solutionLabel": "Solución:",
+          "solution": "En Mike Solutions, desarrollamos una Pokedex web dinámica y completamente funcional. Esta aplicación permite a los usuarios buscar Pokémon por nombre o ID, ver sus estadísticas detalladas, tipos, habilidades y hasta sus evoluciones. Implementamos una interfaz intuitiva con React y un diseño responsivo con Tailwind CSS, garantizando una experiencia fluida desde cualquier dispositivo. La clave está en la integración eficiente con la API de Pokémon (PokeAPI), lo que asegura datos actualizados y precisos, demostrando nuestra capacidad para consumir y presentar información compleja de manera sencilla.",
+          "results": [
+            "Acceso Instantáneo: Millones de datos Pokémon al alcance de la mano.",
+            "Experiencia Envolvente: Interfaz moderna y atractiva para los fans.",
+            "Demostración de Integración API: Capacidad para manejar y visualizar grandes volúmenes de datos externos."
+          ],
+          "tech": ["React.js", "Tailwind CSS", "Vite", "PokeAPI"],
+          "cta": "Descubre cómo creamos experiencias interactivas"
+        },
+        {
+          "image": "/assets/n8n-automation.jpg",
+          "imageAlt": "Automatización con n8n",
+          "title": "Logística Inteligente: Automatización Total del Ciclo de Pedidos",
+          "challengeLabel": "Desafío:",
+          "challenge": "Una empresa de logística de rápido crecimiento se enfrentaba a la saturación por la gestión manual de pedidos. La entrada de datos, el seguimiento y las notificaciones consumían horas valiosas, eran propensas a errores y retrasaban las entregas, limitando su capacidad de expansión.",
+          "solutionLabel": "Solución:",
+          "solution": "Implementamos una potente solución de automatización utilizando n8n que revolucionó su cadena de suministro. Ahora, desde la recepción del pedido (vía email, formulario o API) hasta la notificación de entrega, cada paso es orquestado automáticamente. Esto incluye validación de datos, sincronización con el inventario, generación de facturas y envío de actualizaciones de estado al cliente en tiempo real. Reducimos la intervención humana a un mínimo, permitiendo que el equipo se enfoque en la optimización estratégica.",
+          "results": [
+            "Flujo Sin Fricciones: Procesamiento de pedidos 80% más rápido y sin errores.",
+            "Ahorro Significativo: Reducción de costos operativos y de personal dedicado a tareas repetitivas.",
+            "Clientes Más Felices: Mejor comunicación y entregas más ágiles que aumentan la satisfacción."
+          ],
+          "tech": ["n8n", "Integración API Personalizada", "Bases de Datos SQL/NoSQL", "Servicios de Notificación"],
+          "cta": "Optimiza tus procesos, agenda una consulta gratuita"
+        }
+      ]
     }
   },
   "en": {
@@ -175,6 +212,43 @@
       "emailPlaceholder": "Email",
       "messagePlaceholder": "How can we help you?",
       "sendButton": "Send Message"
+    },
+    "solutionsSection": {
+      "title": "Our Solutions",
+      "items": [
+        {
+          "image": "/assets/pokedex-pokemon.jpg",
+          "imageAlt": "Interactive Pokedex",
+          "title": "Interactive Pokedex: Explore the Pokémon World Like Never Before",
+          "challengeLabel": "Challenge:",
+          "challenge": "The Pokémon universe is vast and fascinating, but information about its creatures is often scattered. Our challenge was to create a centralized platform that offered enthusiasts a quick and visual way to explore and learn about their favorite Pokémon.",
+          "solutionLabel": "Solution:",
+          "solution": "At Mike Solutions, we developed a dynamic and fully functional web Pokedex. This application allows users to search for Pokémon by name or ID, view their detailed stats, types, abilities, and even their evolutions. We implemented an intuitive interface with React and a responsive design with Tailwind CSS, ensuring a smooth experience from any device. The key is the efficient integration with the Pokémon API (PokeAPI), which ensures up-to-date and accurate data, demonstrating our ability to consume and present complex information in a simple way.",
+          "results": [
+            "Instant Access: Millions of Pokémon data at your fingertips.",
+            "Immersive Experience: Modern and attractive interface for fans.",
+            "API Integration Demo: Ability to handle and visualize large volumes of external data."
+          ],
+          "tech": ["React.js", "Tailwind CSS", "Vite", "PokeAPI"],
+          "cta": "Discover how we create interactive experiences"
+        },
+        {
+          "image": "/assets/n8n-automation.jpg",
+          "imageAlt": "n8n Automation",
+          "title": "Smart Logistics: Total Order Cycle Automation",
+          "challengeLabel": "Challenge:",
+          "challenge": "A fast-growing logistics company was overwhelmed by manual order management. Data entry, tracking, and notifications consumed valuable hours, were prone to errors, and delayed deliveries, limiting their ability to scale.",
+          "solutionLabel": "Solution:",
+          "solution": "We implemented a powerful automation solution using n8n that revolutionized their supply chain. Now, from order reception (via email, form, or API) to delivery notification, every step is orchestrated automatically. This includes data validation, inventory sync, invoice generation, and real-time status updates to the customer. We reduced human intervention to a minimum, allowing the team to focus on strategic optimization.",
+          "results": [
+            "Frictionless Flow: 80% faster and error-free order processing.",
+            "Significant Savings: Reduced operational costs and staff dedicated to repetitive tasks.",
+            "Happier Clients: Better communication and faster deliveries that increase satisfaction."
+          ],
+          "tech": ["n8n", "Custom API Integration", "SQL/NoSQL Databases", "Notification Services"],
+          "cta": "Optimize your processes, schedule a free consultation"
+        }
+      ]
     }
   }
 }
