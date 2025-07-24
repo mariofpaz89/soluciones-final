@@ -60,7 +60,7 @@ function Header() {
               aria-label={t('header.languageSelector')}
             >
               <img
-                src={language === 'en' ? '/src/assets/usa.png' : '/src/assets/spain.png'}
+        src={language === 'en' ? '/assets/usa.png' : '/assets/spain.png'}
                 alt={language === 'en' ? 'English' : 'Español'}
                 className="w-6 h-6 rounded-full mr-2"
               />
@@ -82,7 +82,7 @@ function Header() {
                 className="flex items-center w-full px-4 py-2 hover:bg-gray-100 focus:outline-none transition-all duration-150"
                 aria-label="English"
               >
-                <img src="/src/assets/usa.png" alt="English" className="w-5 h-5 rounded-full mr-2" />
+        <img src="/assets/usa.png" alt="English" className="w-5 h-5 rounded-full mr-2" />
                 <span>English</span>
               </button>
               <button
@@ -90,7 +90,7 @@ function Header() {
                 className="flex items-center w-full px-4 py-2 hover:bg-gray-100 focus:outline-none transition-all duration-150"
                 aria-label="Español"
               >
-                <img src="/src/assets/spain.png" alt="Español" className="w-5 h-5 rounded-full mr-2" />
+        <img src="/assets/spain.png" alt="Español" className="w-5 h-5 rounded-full mr-2" />
                 <span>Español</span>
               </button>
             </div>
@@ -145,7 +145,7 @@ function Header() {
               style={language === 'es' ? { borderColor: '#0f866c' } : {}}
               aria-label="Español"
             >
-              <img src="/src/assets/spain.png" alt="Español" className="w-8 h-8 rounded-full" />
+          <img src="/assets/spain.png" alt="Español" className="w-8 h-8 rounded-full" />
             </button>
             <button
               onClick={() => { changeLanguage('en'); toggleMenu(); }}
@@ -153,7 +153,7 @@ function Header() {
               style={language === 'en' ? { borderColor: '#0f866c' } : {}}
               aria-label="English"
             >
-              <img src="/src/assets/usa.png" alt="English" className="w-8 h-8 rounded-full" />
+          <img src="/assets/usa.png" alt="English" className="w-8 h-8 rounded-full" />
             </button>
           </div>
         </div>
