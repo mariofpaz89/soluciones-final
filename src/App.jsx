@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import { LanguageProvider } from './contexts/LanguageContext';
 
+
 import FAQAccordion from "./components/FAQAccordion";
 import SolutionsSection from "./components/SolutionsSection";
 import Header from './components/Header';
@@ -15,12 +16,14 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import CookieBanner from './components/CookieBanner';
 import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <LanguageProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <div className="App min-h-screen flex flex-col bg-expressvpn-bg">
           <Header />
           <main className="flex-1 w-full pt-20 md:pt-24">
