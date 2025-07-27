@@ -4,5 +4,5 @@ export const siteConfig = {
     en: 'Mike Solutions',
     es: 'Soluciones Mike'
   },
-//   logo: '/src/assets/logo.svg', // Puedes cambiar la ruta o usar otro archivo
+  logo: '/src/assets/logo.svg', // Puedes cambiar la ruta o usar otro archivo
 };

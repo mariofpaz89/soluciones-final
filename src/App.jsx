@@ -8,8 +8,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import Footer from './components/Footer';
-// import TestimonialsSection from './components/TestimonialsSection';
-// import ContactSection from './components/ContactSection';
+import ChatWidget from './components/ChatWidget';
 
 function App() {
   return (
@@ -23,9 +22,11 @@ function App() {
           <ServicesSection />
           <SolutionsSection />
           <FAQAccordion />
-          {/* <ContactSection /> */}
+          {/* ContactSection eliminado por no usarse */}
         </main>
         <Footer />
+        <ChatWidget />
+        {/* TestimonialsSection eliminado por no usarse */}
       </div>
     </LanguageProvider>
   );
