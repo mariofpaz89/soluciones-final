@@ -9,12 +9,12 @@ export default function SolutionsSection() {
   const solutions = section?.items || [];
 
   return (
-    <section className="w-full bg-expressvpn-section py-20 px-4">
+    <section className="w-full bg-expressvpn-section py-8 px-1 sm:px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-expressvpn-primary mb-14 text-center animate-fade-in-down">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-center text-[#0f866c] drop-shadow-lg tracking-tight w-full animate-fade-in-down">
           {title}
         </h2>
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-4 sm:gap-10 md:gap-16 px-1">
           {solutions.map((sol, idx) => (
             <div
               key={sol.title}

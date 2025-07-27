@@ -6,12 +6,12 @@ function ServicesSection() {
   const { t } = useContext(LanguageContext);
 
   return (
-    <section id="services" className="bg-expressvpn-section py-20 px-4">
+    <section id="services" className="bg-expressvpn-section py-8 px-1 sm:px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-expressvpn-text mb-14 animate-fade-in-down">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-center text-[#0f866c] drop-shadow-lg tracking-tight w-full animate-fade-in-down">
           {t('servicesSection.title')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-6 md:gap-10 px-1">
           <div className="bg-expressvpn-section p-10 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-2 border border-expressvpn-border animate-fade-in-up">
             <div className="flex justify-center mb-6">
               <span className="inline-block bg-expressvpn-bg text-expressvpn-button rounded-full p-4 text-4xl shadow-md">

@@ -28,10 +28,18 @@ function Header() {
   };
 
   return (
-    <header className="bg-expressvpn-bg shadow-lg p-4 flex justify-between items-center fixed top-0 left-0 w-full z-20 animate-slide-down" style={{background: '#f9f8f2', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
+    <header className="bg-expressvpn-bg shadow-lg p-3 flex justify-between items-center fixed top-0 left-0 w-full z-40 animate-slide-down" style={{background: '#f9f8f2', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
       <div className="flex items-center justify-between w-full">
-        <span className="text-2xl font-bold text-expressvpn-logo">Soluciones Mike</span>
-        <nav className="flex items-center space-x-6">
+        <Link
+          to="/"
+          className="text-2xl font-bold text-expressvpn-logo hover:underline focus:outline-none focus:ring-2 focus:ring-expressvpn-primary rounded transition-all px-2 py-1 md:px-4 md:py-2"
+          aria-label="Ir al inicio"
+          tabIndex={0}
+          style={{ minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
+        >
+          Soluciones Mike
+        </Link>
+        <nav className="hidden md:flex items-center space-x-2 md:space-x-6">
           <Link to="/" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" aria-label={t('header.home')}>
             {t('header.home')}
           </Link>
@@ -52,19 +60,19 @@ function Header() {
           <Link to="/contacto" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" aria-label={t('header.contact')}>
             {t('header.contact')}
           </Link>
-          <div className="relative ml-8 lang-dropdown">
+          <div className="relative ml-2 md:ml-8 lang-dropdown">
             <button
               onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-              className="flex items-center px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
-              style={{ boxShadow: isLangMenuOpen ? '0 0 0 2px #0f866c55' : undefined, borderColor: isLangMenuOpen ? '#0f866c' : undefined }}
+              className="flex items-center px-2 py-1 md:px-4 md:py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
+              style={{ boxShadow: isLangMenuOpen ? '0 0 0 2px #0f866c55' : undefined, borderColor: isLangMenuOpen ? '#0f866c' : undefined, minWidth: '44px', minHeight: '44px' }}
               aria-label={t('header.languageSelector')}
             >
               <img
-        src={language === 'en' ? '/assets/usa.png' : '/assets/spain.png'}
+                src={language === 'en' ? '/assets/usa.png' : '/assets/spain.png'}
                 alt={language === 'en' ? 'English' : 'Español'}
                 className="w-6 h-6 rounded-full mr-2"
               />
-              <span className="text-gray-700 font-medium">
+              <span className="text-gray-700 font-medium hidden xs:inline">
                 {language === 'en' ? 'English' : 'Español'}
               </span>
               <svg className={`ml-2 w-4 h-4 text-gray-700 transform transition-transform duration-200 ${isLangMenuOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +122,7 @@ function Header() {
 
       {/* Menú Desplegable para Móviles */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-expressvpn-bg shadow-lg py-4 flex flex-col items-center space-y-4 z-20 transition-all duration-300 max-h-screen overflow-y-auto">
+        <div className="md:hidden fixed top-16 left-0 w-full min-h-[60vh] bg-expressvpn-bg shadow-lg py-6 flex flex-col items-center space-y-4 z-50 transition-all duration-300 max-h-screen overflow-y-auto px-2">
           <div className="flex flex-col items-center space-y-4 w-full">
             <Link to="/" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" onClick={toggleMenu} aria-label={t('header.home')}>
               {t('header.home')}

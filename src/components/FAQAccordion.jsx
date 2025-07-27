@@ -12,13 +12,11 @@ function FAQAccordion() {
     grouped[item.section].push(item);
   });
   return (
-    <section className="w-full flex flex-col items-center justify-center my-16 px-2 md:px-0">
-      <h2 className="text-4xl font-extrabold mb-10 text-center text-expressvpn-primary drop-shadow-lg tracking-tight w-full">
-        <span className="inline-block bg-white/90 px-8 py-3 rounded-2xl shadow-md border" style={{ borderColor: '#0f866c' }}>
-          {faq.title}
-        </span>
+    <section className="w-full flex flex-col items-center justify-center my-12 px-1 sm:px-2 md:px-0">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-center text-[#0f866c] drop-shadow-lg tracking-tight w-full">
+        {faq.title}
       </h2>
-      <div className="w-full max-w-3xl flex flex-col items-center gap-6">
+      <div className="w-full max-w-3xl flex flex-col items-center gap-4 sm:gap-6 px-1">
         {["about", "automation", "web"].map((section) => (
           <div key={section} className="w-full flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4 text-expressvpn-primary flex items-center gap-2 justify-center">
@@ -32,10 +30,10 @@ function FAQAccordion() {
                 return (
                   <div
                     key={index}
-                    className={`w-full transition-all duration-300 rounded-2xl bg-white/95 shadow-md overflow-hidden border border-gray-200 ${isOpen ? "ring-2 ring-[color:#0f866c]" : "hover:border-[color:#0f866c] hover:shadow-lg"}`}
+                    className={`w-full transition-all duration-300 rounded-xl sm:rounded-2xl bg-white/95 shadow-md overflow-hidden border border-gray-200 ${isOpen ? "ring-2 ring-[color:#0f866c]" : "hover:border-[color:#0f866c] hover:shadow-lg"}`}
                   >
                     <button
-                      className="w-full flex justify-between items-center px-8 py-5 text-left focus:outline-none group"
+                      className="w-full flex justify-between items-center px-3 sm:px-8 py-4 sm:py-5 text-left focus:outline-none group text-base sm:text-lg"
                       onClick={() => setOpenIndex(isOpen ? null : index)}
                       aria-expanded={isOpen}
                     >
@@ -61,7 +59,7 @@ function FAQAccordion() {
                         willChange: 'max-height, opacity',
                       }}
                       className={
-                        `px-8 pb-6 pt-0 text-gray-700 text-base bg-white/95 text-center ` +
+                        `px-3 sm:px-8 pb-4 sm:pb-6 pt-0 text-gray-700 text-sm sm:text-base bg-white/95 text-center ` +
                         (isOpen ? 'animate-fade-in-down' : '')
                       }
                     >

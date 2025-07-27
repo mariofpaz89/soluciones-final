@@ -47,7 +47,7 @@
     "faq": {
       "title": "Ayuda y Preguntas Frecuentes",
       "about": "Sobre Mike Solutions y Nuestros Servicios",
-      "automation": "Preguntas Frecuentes sobre Automatización con n8n",
+      "automation": "Preguntas Frecuentes sobre Automatización de Procesos",
       "web": "Preguntas Frecuentes sobre Creación de Sitios Web",
       "questions": [
         {
@@ -67,13 +67,13 @@
         },
         {
           "section": "automation",
-          "q": "¿Qué es n8n y por qué lo utilizan en sus soluciones de automatización?",
-          "a": "n8n (Node-based Workflow Automation) es una potente herramienta de código abierto que nos permite conectar diversas aplicaciones y servicios (CRM, email marketing, bases de datos, redes sociales, etc.) para crear flujos de trabajo automatizados complejos y personalizados. Lo elegimos por su flexibilidad, capacidad de integración y la posibilidad de adaptarlo a necesidades muy específicas."
+          "q": "¿Qué herramientas utilizan para automatizar procesos?",
+          "a": "Trabajamos con plataformas como Zapier, Make, n8n, integraciones personalizadas y APIs según las necesidades de cada cliente."
         },
         {
           "section": "automation",
-          "q": "¿Qué tipo de tareas puedo automatizar con n8n?",
-          "a": "La lista es muy amplia, pero algunos ejemplos comunes incluyen: Envío automático de emails o notificaciones basadas en eventos, sincronización de datos entre diferentes aplicaciones, automatización de procesos de ventas o marketing, generación de reportes o documentos, publicación automática de contenido en redes sociales, gestión de tareas y proyectos. Cualquier tarea repetitiva que involucre varias aplicaciones es un buen candidato para la automatización."
+          "q": "¿Qué tipo de tareas puedo automatizar?",
+          "a": "Algunos ejemplos comunes incluyen: Envío automático de emails o notificaciones, sincronización de datos entre aplicaciones, automatización de ventas o marketing, generación de reportes, publicación automática en redes sociales, gestión de pedidos y tareas. Cualquier tarea repetitiva que involucre varias aplicaciones es un buen candidato para la automatización."
         },
         {
           "section": "automation",
@@ -167,6 +167,45 @@
           "cta": "Optimiza tus procesos, agenda una consulta gratuita"
         }
       ]
+    },
+    "cookieBanner": {
+      "message": "Utilizamos cookies para mejorar tu experiencia. Al continuar navegando aceptas nuestra ",
+      "link": "Política de Privacidad",
+      "acceptEssentials": "Solo esenciales",
+      "acceptAll": "Aceptar todas",
+      "settings": "Configurar",
+      "settingsTitle": "Configuración de cookies",
+      "essential": "Cookies esenciales (siempre activas)",
+      "analytics": "Cookies analíticas (mejoran el sitio)",
+      "marketing": "Cookies de marketing (publicidad personalizada)",
+      "save": "Guardar preferencias",
+      "cancel": "Cancelar"
+    },
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "intro": "En Soluciones Mike, tu privacidad es fundamental. Esta política explica cómo recopilamos, usamos y protegemos tu información.",
+      "dataCollectionTitle": "¿Qué datos recopilamos?",
+      "dataCollection1": "Información de contacto (nombre, correo electrónico, etc.)",
+      "dataCollection2": "Datos de uso del sitio web (páginas visitadas, tiempo de permanencia, etc.)",
+      "dataCollection3": "Cualquier información que nos envíes a través de formularios.",
+      "usageTitle": "¿Cómo usamos tus datos?",
+      "usage": "Utilizamos tus datos para responder consultas, mejorar nuestros servicios y personalizar tu experiencia.",
+      "rightsTitle": "Tus derechos",
+      "rights": "Puedes solicitar acceso, corrección o eliminación de tus datos en cualquier momento.",
+      "contactTitle": "Contacto",
+      "contact": "Si tienes dudas sobre esta política, contáctanos a info@solucionesmike.com."
+    },
+    "terms": {
+      "title": "Términos de Servicio",
+      "intro": "Al usar nuestro sitio, aceptas estos términos. Por favor, léelos cuidadosamente.",
+      "acceptanceTitle": "Aceptación de los términos",
+      "acceptance": "El uso de este sitio implica la aceptación de estos términos y condiciones.",
+      "usageTitle": "Uso permitido",
+      "usage": "No puedes utilizar el sitio para fines ilícitos o no autorizados.",
+      "limitationTitle": "Limitación de responsabilidad",
+      "limitation": "Soluciones Mike no se hace responsable por daños derivados del uso del sitio.",
+      "contactTitle": "Contacto",
+      "contact": "Para cualquier consulta sobre estos términos, escríbenos a info@solucionesmike.com."
     }
   },
   "en": {
@@ -217,7 +256,7 @@
     "faq": {
       "title": "Help & Frequently Asked Questions",
       "about": "About Mike Solutions and Our Services",
-      "automation": "Frequently Asked Questions about Automation with n8n",
+      "automation": "Frequently Asked Questions about Process Automation",
       "web": "Frequently Asked Questions about Website Creation",
       "questions": [
         {
@@ -237,13 +276,13 @@
         },
         {
           "section": "automation",
-          "q": "What is n8n and why do you use it in your automation solutions?",
-          "a": "n8n (Node-based Workflow Automation) is a powerful open-source tool that allows us to connect various applications and services (CRM, email marketing, databases, social networks, etc.) to create complex and customized automated workflows. We choose it for its flexibility, integration capabilities, and the ability to adapt it to very specific needs."
+          "q": "What tools do you use to automate processes?",
+          "a": "We work with platforms like Zapier, Make, n8n, custom integrations, and APIs according to each client's needs."
         },
         {
           "section": "automation",
-          "q": "What kind of tasks can I automate with n8n?",
-          "a": "The list is very broad, but some common examples include: automatic sending of emails or notifications based on events, data synchronization between different applications, automation of sales or marketing processes, generation of reports or documents, automatic publishing of content on social networks, task and project management. Any repetitive task involving several applications is a good candidate for automation."
+          "q": "What kind of tasks can I automate?",
+          "a": "Some common examples include: automatic sending of emails or notifications, data synchronization between applications, sales or marketing automation, report generation, automatic social media posting, order and task management. Any repetitive task involving several applications is a good candidate for automation."
         },
         {
           "section": "automation",
@@ -313,7 +352,7 @@
           "solutionLabel": "Solution:",
           "solution": "At Mike Solutions, we developed a dynamic and fully functional web Pokedex. This application allows users to search for Pokémon by name or ID, view their detailed stats, types, abilities, and even their evolutions. We implemented an intuitive interface with React and a responsive design with Tailwind CSS, ensuring a smooth experience from any device. The key is the efficient integration with the Pokémon API (PokeAPI), which ensures up-to-date and accurate data, demonstrating our ability to consume and present complex information in a simple way.",
           "results": [
-            "Instant Access: Millions of Pokémon data at your fingertips.",
+            "Instant Access: Milliones de datos Pokémon al alcance de la mano.",
             "Immersive Experience: Modern and attractive interface for fans.",
             "API Integration Demo: Ability to handle and visualize large volumes of external data."
           ],
@@ -337,6 +376,45 @@
           "cta": "Optimize your processes, schedule a free consultation"
         }
       ]
+    },
+    "cookieBanner": {
+      "message": "We use cookies to improve your experience. By continuing to browse you accept our ",
+      "link": "Privacy Policy",
+      "acceptEssentials": "Essentials only",
+      "acceptAll": "Accept all",
+      "settings": "Settings",
+      "settingsTitle": "Cookie settings",
+      "essential": "Essential cookies (always active)",
+      "analytics": "Analytics cookies (help us improve)",
+      "marketing": "Marketing cookies (personalized ads)",
+      "save": "Save preferences",
+      "cancel": "Cancel"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "intro": "At Mike Solutions, your privacy is fundamental. This policy explains how we collect, use, and protect your information.",
+      "dataCollectionTitle": "What data do we collect?",
+      "dataCollection1": "Contact information (name, email, etc.)",
+      "dataCollection2": "Website usage data (pages visited, time spent, etc.)",
+      "dataCollection3": "Any information you send us through forms.",
+      "usageTitle": "How do we use your data?",
+      "usage": "We use your data to respond to inquiries, improve our services, and personalize your experience.",
+      "rightsTitle": "Your rights",
+      "rights": "You can request access, correction, or deletion of your data at any time.",
+      "contactTitle": "Contact",
+      "contact": "If you have questions about this policy, contact us at info@solucionesmike.com."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "By using our site, you accept these terms. Please read them carefully.",
+      "acceptanceTitle": "Acceptance of terms",
+      "acceptance": "Using this site implies acceptance of these terms and conditions.",
+      "usageTitle": "Permitted use",
+      "usage": "You may not use the site for unlawful or unauthorized purposes.",
+      "limitationTitle": "Limitation of liability",
+      "limitation": "Mike Solutions is not responsible for damages arising from the use of the site.",
+      "contactTitle": "Contact",
+      "contact": "For any questions about these terms, write to us at info@solucionesmike.com."
     }
   }
 }
