@@ -37,7 +37,7 @@ const TermsOfService = () => {
         <h2 className="text-xl font-semibold mb-2">{t('terms.contactTitle')}</h2>
         <p>{t('terms.contact')}</p>
         <div className="mt-2">
-          <a href="mailto:info@solucionesmike.com" className="text-expressvpn-accent underline">info@solucionesmike.com</a>
+          <a href="mailto:info@crexa.digital" className="text-expressvpn-accent underline">info@crexa.digital</a>
         </div>
       </section>
     </div>

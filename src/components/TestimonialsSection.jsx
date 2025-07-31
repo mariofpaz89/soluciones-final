@@ -7,13 +7,13 @@ const testimonialsData = {
     {
       name: "Juan Pérez",
       company: "Empresa X",
-      text: "Gracias a Soluciones Mike, logramos automatizar tareas repetitivas y conectar varias plataformas como Google Sheets, WhatsApp y nuestro CRM. ¡El cambio fue inmediato!",
+      text: "Gracias a CRExA, logramos automatizar tareas repetitivas y conectar varias plataformas como Google Sheets, WhatsApp y nuestro CRM. ¡El cambio fue inmediato!",
       avatar: "/assets/avatar1.svg"
     },
     {
       name: "Ana Gómez",
       company: "Startup Y",
-      text: "El equipo de Soluciones Mike nos asesoró en la integración de herramientas como Zapier y Make, optimizando nuestros flujos de trabajo y ahorrando horas cada semana.",
+      text: "El equipo de CRExA nos asesoró en la integración de herramientas como Zapier y Make, optimizando nuestros flujos de trabajo y ahorrando horas cada semana.",
       avatar: "/assets/avatar2.svg"
     },
     {
@@ -27,13 +27,13 @@ const testimonialsData = {
     {
       name: "John Smith",
       company: "Company X",
-      text: "Thanks to Mike Solutions, we automated repetitive tasks and connected platforms like Google Sheets, WhatsApp, and our CRM. The change was immediate!",
+      text: "Thanks to CRExA, we automated repetitive tasks and connected platforms like Google Sheets, WhatsApp, and our CRM. The change was immediate!",
       avatar: "/assets/avatar1.svg"
     },
     {
       name: "Anna Gomez",
       company: "Startup Y",
-      text: "The Mike Solutions team guided us in integrating tools like Zapier and Make, optimizing our workflows and saving hours every week.",
+      text: "The CRExA team guided us in integrating tools like Zapier and Make, optimizing our workflows and saving hours every week.",
       avatar: "/assets/avatar2.svg"
     },
     {

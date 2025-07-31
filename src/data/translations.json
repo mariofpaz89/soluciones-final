@@ -1,20 +1,17 @@
 {
   "es": {
     "chatWidget": {
-  "title": "Soporte Mike Solutions",
+  "title": "Soporte CRExA",
   "howCanWeHelp": "¿Cómo podemos ayudarte?",
   "newRequest": "Iniciar Nueva Solicitud",
-  "followUp": "Dar Seguimiento a Solicitud Existente",
   "nameLabel": "Nombre",
   "emailLabel": "Correo electrónico",
   "messageLabel": "Mensaje",
   "backButton": "Atrás",
-  "sendButton": "Enviar",
   "startButton": "Comenzar",
   "continueButton": "Continuar",
   "requiredField": "Este campo es obligatorio",
   "invalidEmail": "Correo electrónico inválido",
-  "successMessage": "¡Tu mensaje ha sido enviado! Pronto nos pondremos en contacto.",
   "errorMessage": "Ocurrió un error. Por favor, inténtalo de nuevo.",
   "loading": "Enviando...",
   "followUpLabel": "ID de Solicitud",
@@ -37,7 +34,7 @@
   "idPlaceholder": "Ingresa tu ID de solicitud",
   "sendFollowUp": "Enviar mensaje",
   "yourMessage": "Tu mensaje",
-  "supportMessage": "Soporte Mike Solutions",
+  "supportMessage": "Soporte CRExA",
   "simulatedReply": "¡Gracias por tu mensaje! Pronto te responderemos.",
   "historyTitle": "Historial de la Solicitud",
   "typeMessage": "Escribe un mensaje...",
@@ -46,18 +43,18 @@
 },
     "faq": {
       "title": "Ayuda y Preguntas Frecuentes",
-      "about": "Sobre Mike Solutions y Nuestros Servicios",
+      "about": "Sobre CRExA y Nuestros Servicios",
       "automation": "Preguntas Frecuentes sobre Automatización de Procesos",
       "web": "Preguntas Frecuentes sobre Creación de Sitios Web",
       "questions": [
         {
           "section": "about",
-          "q": "¿Qué es Mike Solutions y qué servicios ofrecen?",
-          "a": "Mike Solutions es una empresa dedicada a proporcionar soluciones tecnológicas innovadoras para optimizar y hacer crecer su negocio. Nos especializamos en automatización de procesos con n8n y creación de sitios web modernos y personalizados. Nuestro objetivo es mejorar su eficiencia y presencia digital."
+          "q": "¿Qué es CRExA y qué servicios ofrecen?",
+          "a": "CRExA es una empresa dedicada a proporcionar soluciones tecnológicas innovadoras para optimizar y hacer crecer su negocio. Nos especializamos en automatización de procesos con n8n y creación de sitios web modernos y personalizados. Nuestro objetivo es mejorar su eficiencia y presencia digital."
         },
         {
           "section": "about",
-          "q": "¿Para quiénes son los servicios de Mike Solutions?",
+          "q": "¿Para quiénes son los servicios de CRExA?",
           "a": "Nuestros servicios están diseñados para pequeñas y medianas empresas, emprendedores y profesionales que buscan optimizar sus operaciones, establecer o mejorar su presencia online, y aprovechar la tecnología para ser más competitivos y eficientes."
         },
         {
@@ -82,16 +79,6 @@
         },
         {
           "section": "web",
-          "q": "¿Qué tipo de sitios web crean en Mike Solutions?",
-          "a": "Diseñamos y desarrollamos páginas web modernas, responsive y optimizadas para el rendimiento. Esto incluye sitios web corporativos, páginas de servicios, landing pages para campañas, portafolios, y blogs. Nos enfocamos en un diseño atractivo, una excelente experiencia de usuario y que su sitio funcione perfectamente en cualquier dispositivo."
-        },
-        {
-          "section": "web",
-          "q": "¿Qué tecnologías utilizan para desarrollar los sitios web?",
-          "a": "Principalmente utilizamos React.js para construir interfaces de usuario dinámicas y eficientes, y Tailwind CSS para un estilado rápido y altamente personalizable. Estas tecnologías nos permiten crear sitios web robustos, escalables y con un excelente rendimiento."
-        },
-        {
-          "section": "web",
           "q": "¿Cuánto tiempo tarda la creación de un sitio web?",
           "a": "El tiempo de desarrollo varía según la complejidad y las funcionalidades que requiera su sitio. Una página de servicios estándar puede tomar unas pocas semanas, mientras que proyectos más complejos naturalmente requieren más tiempo. Le proporcionaremos una línea de tiempo clara y detallada después de entender sus necesidades."
         },
@@ -109,7 +96,7 @@
       "languageSelector": "Idioma"
     },
     "heroSection": {
-      "title": "Soluciones Mike: Innovación Tecnológica para tu Negocio",
+      "title": "CRExA: Innovación Tecnológica para tu Negocio",
       "subtitle": "Optimizamos tus procesos y construimos tu presencia digital."
     },
     "servicesSection": {
@@ -120,7 +107,7 @@
       "websiteCreationDescription": "Diseñamos y desarrollamos sitios web modernos, responsivos y de alto rendimiento que representan tu marca y atraen a tus clientes."
     },
     "footer": {
-      "rightsReserved": "© 2024 Soluciones Mike. Todos los derechos reservados.",
+      "rightsReserved": "© 2024 CRExA. Todos los derechos reservados.",
       "privacyPolicy": "Política de Privacidad",
       "termsOfService": "Términos de Servicio"
     },
@@ -141,7 +128,7 @@
           "challengeLabel": "Desafío:",
           "challenge": "El universo Pokémon es vasto y fascinante, pero la información sobre sus criaturas a menudo está dispersa. Nuestro desafío fue crear una plataforma centralizada que ofreciera a los entusiastas una forma rápida y visual de explorar y aprender sobre sus Pokémon favoritos.",
           "solutionLabel": "Solución:",
-          "solution": "En Mike Solutions, desarrollamos una Pokedex web dinámica y completamente funcional. Esta aplicación permite a los usuarios buscar Pokémon por nombre o ID, ver sus estadísticas detalladas, tipos, habilidades y hasta sus evoluciones. Implementamos una interfaz intuitiva con React y un diseño responsivo con Tailwind CSS, garantizando una experiencia fluida desde cualquier dispositivo. La clave está en la integración eficiente con la API de Pokémon (PokeAPI), lo que asegura datos actualizados y precisos, demostrando nuestra capacidad para consumir y presentar información compleja de manera sencilla.",
+          "solution": "En CRExA, desarrollamos una Pokedex web dinámica y completamente funcional. Esta aplicación permite a los usuarios buscar Pokémon por nombre o ID, ver sus estadísticas detalladas, tipos, habilidades y hasta sus evoluciones. Implementamos una interfaz intuitiva con React y un diseño responsivo con Tailwind CSS, garantizando una experiencia fluida desde cualquier dispositivo. La clave está en la integración eficiente con la API de Pokémon (PokeAPI), lo que asegura datos actualizados y precisos, demostrando nuestra capacidad para consumir y presentar información compleja de manera sencilla.",
           "results": [
             "Acceso Instantáneo: Millones de datos Pokémon al alcance de la mano.",
             "Experiencia Envolvente: Interfaz moderna y atractiva para los fans.",
@@ -183,7 +170,7 @@
     },
     "privacyPolicy": {
       "title": "Política de Privacidad",
-      "intro": "En Soluciones Mike, tu privacidad es fundamental. Esta política explica cómo recopilamos, usamos y protegemos tu información.",
+      "intro": "En CRExA, tu privacidad es fundamental. Esta política explica cómo recopilamos, usamos y protegemos tu información.",
       "dataCollectionTitle": "¿Qué datos recopilamos?",
       "dataCollection1": "Información de contacto (nombre, correo electrónico, etc.)",
       "dataCollection2": "Datos de uso del sitio web (páginas visitadas, tiempo de permanencia, etc.)",
@@ -193,7 +180,7 @@
       "rightsTitle": "Tus derechos",
       "rights": "Puedes solicitar acceso, corrección o eliminación de tus datos en cualquier momento.",
       "contactTitle": "Contacto",
-      "contact": "Si tienes dudas sobre esta política, contáctanos a info@solucionesmike.com."
+      "contact": "Si tienes dudas sobre esta política, contáctanos a info@crexa.digital."
     },
     "terms": {
       "title": "Términos de Servicio",
@@ -203,14 +190,14 @@
       "usageTitle": "Uso permitido",
       "usage": "No puedes utilizar el sitio para fines ilícitos o no autorizados.",
       "limitationTitle": "Limitación de responsabilidad",
-      "limitation": "Soluciones Mike no se hace responsable por daños derivados del uso del sitio.",
+      "limitation": "CRExA no se hace responsable por daños derivados del uso del sitio.",
       "contactTitle": "Contacto",
-      "contact": "Para cualquier consulta sobre estos términos, escríbenos a info@solucionesmike.com."
+      "contact": "Para cualquier consulta sobre estos términos, escríbenos a info@crexa.digital."
     }
   },
   "en": {
     "chatWidget": {
-    "title": "Mike Solutions Support",
+    "title": "CRExA Support",
   "howCanWeHelp": "How can we help you?",
   "newRequest": "Start New Request",
   "followUp": "Follow Up on Existing Request",
@@ -246,7 +233,7 @@
   "idPlaceholder": "Enter your request ID",
   "sendFollowUp": "Send message",
   "yourMessage": "Your message",
-  "supportMessage": "Mike Solutions Support",
+  "supportMessage": "CRExA Support",
   "simulatedReply": "Thank you for your message! We will reply soon.",
   "historyTitle": "Request History",
   "typeMessage": "Type a message...",
@@ -255,18 +242,18 @@
 },
     "faq": {
       "title": "Help & Frequently Asked Questions",
-      "about": "About Mike Solutions and Our Services",
+      "about": "About CRExA and Our Services",
       "automation": "Frequently Asked Questions about Process Automation",
       "web": "Frequently Asked Questions about Website Creation",
       "questions": [
         {
           "section": "about",
-          "q": "What is Mike Solutions and what services do you offer?",
-          "a": "Mike Solutions is a company dedicated to providing innovative technological solutions to optimize and grow your business. We specialize in process automation with n8n and the creation of modern, customized websites. Our goal is to improve your efficiency and digital presence."
+          "q": "What is CRExA and what services do you offer?",
+          "a": "CRExA is a company dedicated to providing innovative technological solutions to optimize and grow your business. We specialize in process automation with n8n and the creation of modern, customized websites. Our goal is to improve your efficiency and digital presence."
         },
         {
           "section": "about",
-          "q": "Who are Mike Solutions' services for?",
+          "q": "Who are CRExA's services for?",
           "a": "Our services are designed for small and medium-sized businesses, entrepreneurs, and professionals who want to optimize their operations, establish or improve their online presence, and leverage technology to be more competitive and efficient."
         },
         {
@@ -291,7 +278,7 @@
         },
         {
           "section": "web",
-          "q": "What kind of websites do you create at Mike Solutions?",
+          "q": "What kind of websites do you create at CRExA?",
           "a": "We design and develop modern, responsive, and performance-optimized web pages. This includes corporate websites, service pages, landing pages for campaigns, portfolios, and blogs. We focus on attractive design, excellent user experience, and ensuring your site works perfectly on any device."
         },
         {
@@ -318,7 +305,7 @@
       "languageSelector": "Language"
     },
     "heroSection": {
-      "title": "Soluciones Mike: Technological Innovation for Your Business",
+      "title": "CRExA: Technological Innovation for Your Business",
       "subtitle": "We optimize your processes and build your digital presence."
     },
     "servicesSection": {
@@ -329,7 +316,7 @@
       "websiteCreationDescription": "We design and develop modern, responsive, and high-performance websites that represent your brand and attract your customers."
     },
     "footer": {
-      "rightsReserved": "© 2024 Soluciones Mike. All rights reserved.",
+      "rightsReserved": "© 2024 CRExA. All rights reserved.",
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
     },
@@ -350,7 +337,7 @@
           "challengeLabel": "Challenge:",
           "challenge": "The Pokémon universe is vast and fascinating, but information about its creatures is often scattered. Our challenge was to create a centralized platform that offered enthusiasts a quick and visual way to explore and learn about their favorite Pokémon.",
           "solutionLabel": "Solution:",
-          "solution": "At Mike Solutions, we developed a dynamic and fully functional web Pokedex. This application allows users to search for Pokémon by name or ID, view their detailed stats, types, abilities, and even their evolutions. We implemented an intuitive interface with React and a responsive design with Tailwind CSS, ensuring a smooth experience from any device. The key is the efficient integration with the Pokémon API (PokeAPI), which ensures up-to-date and accurate data, demonstrating our ability to consume and present complex information in a simple way.",
+          "solution": "At CRExA, we developed a dynamic and fully functional web Pokedex. This application allows users to search for Pokémon by name or ID, view their detailed stats, types, abilities, and even their evolutions. We implemented an intuitive interface with React and a responsive design with Tailwind CSS, ensuring a smooth experience from any device. The key is the efficient integration with the Pokémon API (PokeAPI), which ensures up-to-date and accurate data, demonstrating our ability to consume and present complex information in a simple way.",
           "results": [
             "Instant Access: Milliones de datos Pokémon al alcance de la mano.",
             "Immersive Experience: Modern and attractive interface for fans.",
@@ -392,7 +379,7 @@
     },
     "privacyPolicy": {
       "title": "Privacy Policy",
-      "intro": "At Mike Solutions, your privacy is fundamental. This policy explains how we collect, use, and protect your information.",
+      "intro": "At CRExA, your privacy is fundamental. This policy explains how we collect, use, and protect your information.",
       "dataCollectionTitle": "What data do we collect?",
       "dataCollection1": "Contact information (name, email, etc.)",
       "dataCollection2": "Website usage data (pages visited, time spent, etc.)",
@@ -402,7 +389,7 @@
       "rightsTitle": "Your rights",
       "rights": "You can request access, correction, or deletion of your data at any time.",
       "contactTitle": "Contact",
-      "contact": "If you have questions about this policy, contact us at info@solucionesmike.com."
+      "contact": "If you have questions about this policy, contact us at info@crexa.digital."
     },
     "terms": {
       "title": "Terms of Service",
@@ -412,9 +399,9 @@
       "usageTitle": "Permitted use",
       "usage": "You may not use the site for unlawful or unauthorized purposes.",
       "limitationTitle": "Limitation of liability",
-      "limitation": "Mike Solutions is not responsible for damages arising from the use of the site.",
+      "limitation": "CRExA is not responsible for damages arising from the use of the site.",
       "contactTitle": "Contact",
-      "contact": "For any questions about these terms, write to us at info@solucionesmike.com."
+      "contact": "For any questions about these terms, write to us at info@crexa.digital."
     }
   }
 }

@@ -127,7 +127,7 @@ export default function ChatWidget() {
           text: form.message.trim(),
         },
         {
-          sender: "Mike Solutions",
+          sender: "CRExA",
           timestamp: now,
           text: t("chatWidget.simulatedReply"),
         },
@@ -179,7 +179,7 @@ export default function ChatWidget() {
     // Simular respuesta de soporte
     setTimeout(() => {
       const reply = {
-        sender: "Mike Solutions",
+        sender: "CRExA",
         timestamp: new Date().toISOString(),
         text: t("chatWidget.simulatedReply"),
       };

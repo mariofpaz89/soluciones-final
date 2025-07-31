@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { siteConfig } from '../data/siteConfig';
 import { LanguageContext } from '../contexts/LanguageContext';
 import { Link } from 'react-router-dom';
 
@@ -32,12 +33,17 @@ function Header() {
       <div className="flex items-center justify-between w-full">
         <Link
           to="/"
-          className="text-2xl font-bold text-expressvpn-logo hover:underline focus:outline-none focus:ring-2 focus:ring-expressvpn-primary rounded transition-all px-2 py-1 md:px-4 md:py-2"
+          className="focus:outline-none focus:ring-2 focus:ring-expressvpn-primary rounded transition-all px-2 py-1 md:px-4 md:py-2"
           aria-label="Ir al inicio"
           tabIndex={0}
           style={{ minWidth: '44px', minHeight: '44px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
         >
-          Soluciones Mike
+          <img
+            src={siteConfig.logoNombre}
+            alt={siteConfig.logoNombreAlt}
+            className="h-8 md:h-10 w-auto object-contain"
+            style={{ maxWidth: 180 }}
+          />
         </Link>
         <nav className="hidden md:flex items-center space-x-2 md:space-x-6">
           <Link to="/" className="text-expressvpn-text hover:text-[color:#0f866c] font-medium" aria-label={t('header.home')}>

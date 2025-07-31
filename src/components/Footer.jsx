@@ -22,7 +22,7 @@ function Footer() {
           </Link>
         </div>
         <div className="mt-6 text-expressvpn-border text-xs">
-          Diseñado y Desarrollado con <span className="text-expressvpn-button">❤</span> por Soluciones Mike
+          Diseñado y Desarrollado con <span className="text-expressvpn-button">❤</span> por CRExA
         </div>
       </div>
     </footer>
