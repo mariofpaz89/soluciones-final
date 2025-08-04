@@ -1,12 +1,42 @@
-# React + Vite
+# CRExA Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web profesional desarrollado con React, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+## Requisitos
+- Node.js >= 18
+- npm
+- Docker (opcional para despliegue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación local
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Build para producción
+```bash
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Despliegue con Docker
+1. Construye la imagen:
+   ```bash
+   docker build -t crexa-web .
+   ```
+2. Ejecuta el contenedor:
+   ```bash
+   docker run -p 80:80 crexa-web
+   ```
+
+El sitio estará disponible en [http://localhost](http://localhost)
+
+## Estructura del proyecto
+- `src/` Código fuente React
+- `public/` Archivos estáticos
+- `Dockerfile` y `nginx.conf` para despliegue
+
+## Personalización de logos y favicon
+Edita las rutas en `src/data/siteConfig.js` para cambiar el logo, logo con nombre y favicon de forma centralizada.
+
+## Licencia
+MIT
