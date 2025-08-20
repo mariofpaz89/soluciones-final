@@ -182,6 +182,10 @@
       "contactTitle": "Contacto",
       "contact": "Si tienes dudas sobre esta política, contáctanos a info@crexa.digital."
     },
+    "maintenance": {
+      "title": "Sitio en Mantenimiento",
+      "message": "Estamos realizando mejoras para brindarte una mejor experiencia. Vuelve a intentarlo en unos minutos. ¡Gracias por tu paciencia!"
+    },
     "terms": {
       "title": "Términos de Servicio",
       "intro": "Al usar nuestro sitio, aceptas estos términos. Por favor, léelos cuidadosamente.",
@@ -390,6 +394,10 @@
       "rights": "You can request access, correction, or deletion of your data at any time.",
       "contactTitle": "Contact",
       "contact": "If you have questions about this policy, contact us at info@crexa.digital."
+    },
+    "maintenance": {
+      "title": "Site Under Maintenance",
+      "message": "We are making improvements to provide you with a better experience. Please try again in a few minutes. Thank you for your patience!"
     },
     "terms": {
       "title": "Terms of Service",
